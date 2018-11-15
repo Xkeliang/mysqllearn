@@ -2,18 +2,26 @@
 mysql学习
 
 MYSQL学习     Server version: 8.0.11
+
+
 ##一、数据管理
     1、人工管理阶段
     2、文件系统阶段
     3、数据库系统阶段
+    
+    
 ##二、概念
     1、数据库（DB）
     2、数据库管理系统（DBMS）
     3、数据库系统（DBS）
+    
+    
 ##三、数据库阶段
     1、层次数据库和网状数据库
     2、关系数据库（逻辑性）
     3、后关系数据库（抽象性）
+    
+    
 ##四、mysql
         SQL
         struct query language
@@ -382,15 +390,4 @@ MYSQL学习     Server version: 8.0.11
             mysqldump -u username -p --all -databases >D:\ backupname.sql  //备份数据库
 
             还原数据
-            mysql -u username -p dbname <D:\ backupname.sql
-        
-        
-
-
-
-
-
-        
-
-
-
+            mysql -u username -p dbname <D:\ backupname.sql     
